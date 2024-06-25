@@ -1,3 +1,4 @@
+/* Beginning of Navbar design*/
 nav{
     width: 100%;
     height: 70px;
@@ -13,6 +14,7 @@ ul{
 li{
     float: left;
 }
+ /*Setting icons on right hand side of navbar*/
 li a {
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -26,7 +28,7 @@ li a:hover{
     opacity: 0.4;
     transition: 0.5s;
 }
-
+ /*House of Origin main logo*/
 #logo
 {
     font-family: "Orbitron", sans-serif;
@@ -39,6 +41,7 @@ li a:hover{
     margin-top: -35px;
     padding-left: 290px;
 }
+ /*Setting up background image of main page*/
 .container
 {
     background-image: url(./assets/page1.jpg);
@@ -50,6 +53,7 @@ li a:hover{
 body{
     margin: 0px;
 }
+ /*Setting up search bar of the Navbar*/
 #srch
 {
     border: none;
@@ -60,6 +64,7 @@ body{
     background-color: rgb(245, 245, 245);
     transition: 0.5s;
 }
+ /*Setting up two buttons (men and women) upon the image of main screen*/
 #menbtn
 {
     padding: 10px;
@@ -97,6 +102,7 @@ body{
     border-color: transparent;
     transition: 0.5s;
 }
+ /*Creating "essentials" page*/
 #container_two
 {
     text-align: center;
@@ -104,6 +110,7 @@ body{
     padding-right: 170px;
     height: 250px;
 }
+ /*Setting up font of the title*/
 #ess
 {
     font-family: "Orbitron", sans-serif;
@@ -113,6 +120,7 @@ body{
     letter-spacing: 10px;
     
 }
+ /*Setting up the sub-text*/
 #sp1
 {
     border-bottom: 2px solid;
@@ -122,6 +130,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     color: gray;
 }
+ /*Creating item-list*/
 .flex-container
 {
     display: flex;
@@ -131,6 +140,7 @@ body{
     padding-left: 160px;
     font-family:monospace;
 }
+ /*title under item image*/
 #hwt
 {
     font-size: 15px;
@@ -138,11 +148,13 @@ body{
     font-weight: lighter;
     word-spacing: 0px;
 }
+ /*price under item image*/
 #price
 {
     font-size:15px ;
     margin-top: 5px;
 }
+ /*explore button under the item-div*/
 #expbtn
 {
     background-color: black;
@@ -160,13 +172,14 @@ body{
     border-color: transparent;
     transition: 0.5s;
 }
+ /*div inside which explore button is present*/
 .exp
 {
     display: flex;
     justify-content: center;
     height: 80px;
 }
-
+ /*Beginning of the Explore more page*/
 .container_three
 {
     background-image: url(./assets/page2.jpg);
@@ -175,11 +188,13 @@ body{
    background-size: cover;
    text-align: center;
 }
+ /*div inside which text is present*/
 .content
 {
     margin-left: 200px;
     margin-right: 200px;
 }
+ /*setting up title for page*/
 #three_t
 {
     font-family: "Orbitron", sans-serif;
@@ -189,11 +204,13 @@ body{
     font-size: 70px;
     letter-spacing: 8px;
 }
+ /*text under title of explore more*/
 #lorem2
 {
     color: white;
     font-family:Arial, Helvetica, sans-serif;
 }
+ /*button under text*/
 #expbtn2
 {
     color: black;
@@ -213,6 +230,7 @@ body{
     transition: 0.5s;
 
 }
+ /*Beginning of Best Sellers page, should be same as essentials*/
 #container_four
 {
     text-align: center;
@@ -228,6 +246,7 @@ body{
     margin-top: 80px;
     letter-spacing: 10px;   
 }
+ /*underline the title*/
 #sp2
 {
     border-bottom: 2px solid;
@@ -237,16 +256,15 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     color: gray;
 }
+ /*Trial room page beginning*/
 .virtual
 {
-    background-image: url(./assets/virtual.jpg);
+    background-image: url(./assets/virtual1.jpg);
     height: 700px;
    width: 100%;
-   background-size: cover;
-   /* text-align: center; */
-   
+   background-size: cover;   
 }
-
+ /*Seting up the title*/
 #vt
 {
     font-family: "Orbitron", sans-serif;
@@ -256,11 +274,11 @@ body{
     padding-top: 110px;
     padding-right: 400px;
 }
+ /*setting up the sub-text under title*/
 #lorem4
 {
     font-family:Arial, Helvetica, sans-serif;
-    color: rgb(102, 100, 100);
-    
+    color: rgb(102, 100, 100);   
 }
 .content1
 {
@@ -294,10 +312,9 @@ body{
     height: 800px;
    width: 100%;
    background-size: cover;
-   text-align: center;
-   
-   
+   text-align: center;  
 }
+ /*setting up title in center*/
 #sm
 {
     font-family: "Orbitron", sans-serif;
@@ -306,6 +323,7 @@ body{
     color: white;
     padding-top: 350px;
 }
+ /*creating sub-texxt under title*/
 #lorem5
 {
     font-family:Arial, Helvetica, sans-serif;
@@ -320,6 +338,7 @@ body{
     padding-right: 370px;
     height: 400px;
 }
+ /*header title*/
 #off
 {
     font-family: "Orbitron", sans-serif;
@@ -328,6 +347,7 @@ body{
     margin-top: 80px;
     letter-spacing: 10px;   
 }
+ /*sub-text*/
 #sign
 {
     margin-top: -30px;
@@ -335,12 +355,14 @@ body{
     padding-right: 150px;
     font-family:Arial, Helvetica, sans-serif;
 }
+ /*input field for email*/
 #sub
 {
     width: 400px;
     height: 36px;
     font-size: 15px;
 }
+/* small text under the input field */
 #span2
 {
     font-size: 12px;
@@ -349,6 +371,7 @@ body{
     padding-top: 8px;
     font-family:Arial, Helvetica, sans-serif;
 }
+/* begging of creation of footer */
 footer{
     background-color: rgb(238, 243, 253);
 }
@@ -357,6 +380,7 @@ footer{
     width: 100%;
     text-align: center;
 }
+/* media icons setup */
 .socialIcons
 {
     display: flex;
@@ -375,6 +399,7 @@ footer{
     color: black;
     opacity: 0.9;
 }
+/* setting up hover properties for media icons */
 .socialIcons a:hover{
     background-color: black;
     transition: 0.5s;
@@ -383,7 +408,7 @@ footer{
     color: white;
     transition: 0.5s;
 }
-
+/* setting menu bar under media icons */
 .footerNavbar ul li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -397,6 +422,7 @@ footer{
     opacity: 0.9;
     transition: 0.5s;
 }
+/* setting up copyright line property */
 .footerBottom
 {
     margin-top: 100px;
